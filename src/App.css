@@ -1,0 +1,38 @@
+/** @format */
+
+.app {
+  background-color: purple;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30vh;
+}
+.serach {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: fit-content;
+}
+.searchbox {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-radius: 16px;
+  padding: 8px;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.card {
+  padding: 0 8px;
+}
+.card:hover {
+  background: rgb(211, 210, 210);
+}
